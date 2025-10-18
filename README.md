@@ -2,7 +2,7 @@
 
 ---
 
-This is the implementation of our paper: [Adaptive EMG Pattern Classification via Probabilistic Knowledge Transfer With Scale Mixture-Based Bayesian Sequential Learningk](https://ieeexplore.ieee.org/abstract/document/11079723).
+This is the implementation of our paper: [Adaptive EMG Pattern Classification via Probabilistic Knowledge Transfer With Scale Mixture-Based Bayesian Sequential Learning](https://ieeexplore.ieee.org/abstract/document/11079723).
 
 ## Overview
  <img src=img/overview_ver7-1.png><br>
