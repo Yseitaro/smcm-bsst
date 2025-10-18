@@ -1,0 +1,34 @@
+cfg_name: kanoga_long
+
+path:
+  data_root: ../data/kanoga_long
+  save: ../results/kanoga_long
+  model_path: 
+
+preprocess:
+  sampling_freq: 200
+  cutoff_freq: 2
+  filter_order: 2
+  extraction_rate: 0
+  down_sampling_rate: 10
+  cutoff_freq_emg: 1.0
+  window_size: 200
+  sliding: 50
+  fs: 200
+
+data:
+  n_sub : 5
+  n_trial : 120
+  n_channel : 8
+  n_class : 8
+  sampling_freq : 200
+
+
+validation:
+  train_trial : [0,1]
+    
+
+
+seed: 1111
+
+

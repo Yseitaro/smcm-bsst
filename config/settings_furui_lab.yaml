@@ -1,0 +1,31 @@
+cfg_name: furui_lab
+
+path:
+  data_root: ../data/furui_lab
+  save: ../results/furui_lab
+  model_path: 
+
+preprocess:
+  sampling_freq: 2000
+  cutoff_freq: 2
+  filter_order: 2
+  extraction_rate: 0
+  down_sampling_rate: 10
+  window_size: 200
+  sliding: 50
+  fs: 2000
+
+data:
+  n_sub : 6
+  n_trial : 20
+  n_channel : 4
+  n_class : 6
+  sampling_freq : 2000
+
+validation:
+  train_trial : [0,1]
+  
+
+seed: 1111
+
+
